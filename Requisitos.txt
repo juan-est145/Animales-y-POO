@@ -1,0 +1,6 @@
+- Método común que hereden las otras clases para que se ejecute la animación estándar al pulsar una tecla y otro que roten los animales.
+- Que el pez lance burbujas al pulsar la tecla "f"
+- Que el mono salte al pulsar la tecla "m"
+- Que el pajaro píe al pulsar la tecla "b"
+- Poder poner nombre a cada animal y que no empiece el juego hasta que no tengan todos un nombre (el nombre permanece aunque se salga del 
+juego e incluir botón para reiniciar los nombres).
