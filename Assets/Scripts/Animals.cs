@@ -30,7 +30,12 @@ public class Animals : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            playerAnimator.SetBool("", true);
+            playerAnimator.SetBool("Idle_a_bool", true);
+        }
+
+        else if (Input.GetKeyDown(KeyCode.X))
+        {
+            playerAnimator.SetBool("Idle_a_bool", false);
         }
     }
 }

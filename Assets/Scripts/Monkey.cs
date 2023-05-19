@@ -20,12 +20,4 @@ public class Monkey : Animals
     {
         Rotation();
     }
-
-    protected override void StandardAnimation()
-    {
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            playerAnimator.SetBool("Idle_a_bool", true);
-        }
-    }
 }
