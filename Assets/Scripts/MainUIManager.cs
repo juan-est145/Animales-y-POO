@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+using System.IO;
 
 public class MainUIManager : MonoBehaviour
 {
@@ -13,5 +15,10 @@ public class MainUIManager : MonoBehaviour
         {
             displayNames[i].text = DataManager.Instance.animalsNames[i];
         }
+    }
+
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

@@ -11,15 +11,7 @@ using UnityEditor;
 public class MenuUIManager : MonoBehaviour
 {
     [SerializeField] TMP_Text[] inputText = new TMP_Text[3];
-    [SerializeField] Button playButton;
-
-    public void Update()
-    {
-        if (DataManager.Instance.animalsNames[0] != "" && DataManager.Instance.animalsNames[1] != "" && DataManager.Instance.animalsNames[2] != "")
-        {
-            playButton.gameObject.SetActive(true);
-        }
-    }
+    
     public void SetAnimalsName()
     {
         for (int i = 0; i < inputText.Length; i++)

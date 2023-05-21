@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class DataManager : MonoBehaviour
 {
-    public static DataManager Instance;
-    public string[] animalsNames = new string[3];
+    public static DataManager Instance{ get; private set;}
+    public string[] animalsNames { get;} = new string[3];
 
     private void Awake()
     {
