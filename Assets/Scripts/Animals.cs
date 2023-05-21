@@ -8,17 +8,6 @@ public class Animals : MonoBehaviour
     private float turnSpeed = 120.0f;
     private Vector3 angleRotation = new Vector3(0, 5, 0);
     protected Animator playerAnimator;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     protected void Rotation()
     {
