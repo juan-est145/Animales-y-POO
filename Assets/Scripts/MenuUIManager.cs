@@ -4,9 +4,6 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
 
 public class MenuUIManager : MonoBehaviour
 {
@@ -23,14 +20,5 @@ public class MenuUIManager : MonoBehaviour
     public void LoadMainScene()
     {
         SceneManager.LoadScene(1);
-    }
-
-    public void QuitGame()
-    {
-#if UNITY_EDITOR
-        EditorApplication.ExitPlaymode();
-#else
-        Application.Quit();
-#endif
     }
 }
